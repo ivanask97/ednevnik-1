@@ -44,7 +44,7 @@ public class UserAdminActivity extends AppCompatActivity {
         setContentView(R.layout.activity_user_admin);
 
         this.db = FirebaseDatabase.getInstance();
-        this.ref = this.db.getReference("ednevnik/ucenici");
+        this.ref = this.db.getReference("ucenici");
         this.studentNameInp = findViewById(R.id.studentNameInp);
         this.studentSurnameInp = findViewById(R.id.studentSurnameInp);
         this.studentUidInp = findViewById(R.id.studentUid);
